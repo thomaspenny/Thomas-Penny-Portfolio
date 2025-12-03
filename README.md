@@ -22,4 +22,3 @@ This is my portfolio website where I share information about my background, proj
 
 - HTML5
 - CSS3
-- Materialize CSS framework
