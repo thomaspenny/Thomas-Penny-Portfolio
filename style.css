@@ -27,6 +27,21 @@
   margin: 0 auto;
   width: auto;
   text-align: inherit;
+  position: relative;
+  z-index: 12;
+}
+
+.caption {
+  position: relative;
+  z-index: 12;
+}
+
+.content {
+  position: relative;
+  z-index: 11;
+  background-color: rgba(167, 255, 235, 0.8);
+  padding: 30px;
+  border-radius: 15px;
 }
 
 .icon-btn {
@@ -273,6 +288,7 @@ h3 {
   left: 0;
   position: absolute;
   top: 0;
+  z-index: 10;
 }
 
 #intro.section .container *:not(span) {
@@ -296,6 +312,18 @@ h3 {
   position: absolute;
   top: 0;
   width: 100%;
+  z-index: 1;
+}
+
+.buttons {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px 30px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-top: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 15;
 }
 
 .waves-effect.waves-blue .waves-ripple {
