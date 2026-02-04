@@ -481,13 +481,13 @@ a.hoverline:hover {
 #projects .card-action {
   background-color: rgba(0, 0, 0, 0.02);
   border-top: 1px solid rgba(160, 160, 160, 0.2);
-  padding: 20px 24px;
+  padding: 30px 24px;
   text-align: center;
   margin-top: auto;
 }
 
 #projects .card .card-content {
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 #contact a:not(.btn-floating) {
