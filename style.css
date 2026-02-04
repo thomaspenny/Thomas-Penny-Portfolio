@@ -285,10 +285,9 @@ h3 {
 #intro.section .container {
   color: white;
   font-weight: 200;
-  left: 0;
-  position: absolute;
-  top: 0;
+  position: relative;
   z-index: 10;
+  padding-top: 50px;
 }
 
 #intro.section .container *:not(span) {
@@ -313,6 +312,7 @@ h3 {
   top: 0;
   width: 100%;
   z-index: 1;
+  pointer-events: none;
 }
 
 .buttons {
