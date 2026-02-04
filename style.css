@@ -116,11 +116,14 @@
   margin-top: 1.5em;
   border-radius: 5px;
   -webkit-border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.3s ease;
 }
 
 .contactme:hover{
   color: #00796b;
   background-color: white;
+  text-decoration: none;
 }
 
 body {
@@ -280,8 +283,7 @@ h3 {
 #intro.section {
   background: #a7ffeb repeat;
   position: relative;
-  min-height: 100vh;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 #intro.section .container {
