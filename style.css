@@ -463,8 +463,26 @@ a.hoverline:hover {
   height: 240px;
 }
 
+.card.medium {
+  min-height: 450px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card.medium .card-content {
+  flex-grow: 1;
+}
+
 .card-action a.btn-floating {
   margin-bottom: 0;
+}
+
+#projects .card-action {
+  background-color: rgba(0, 0, 0, 0.02);
+  border-top: 1px solid rgba(160, 160, 160, 0.2);
+  padding: 16px 24px;
+  text-align: center;
+  margin-top: auto;
 }
 
 #contact a:not(.btn-floating) {
