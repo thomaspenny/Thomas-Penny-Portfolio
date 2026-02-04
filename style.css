@@ -473,7 +473,7 @@ a.hoverline:hover {
   border-top: 1px solid rgba(160, 160, 160, 0.2);
   padding: 20px 24px;
   text-align: center;
-  margin-top: 15px;
+  margin-top: 0;
 }
 
 #contact a:not(.btn-floating) {
