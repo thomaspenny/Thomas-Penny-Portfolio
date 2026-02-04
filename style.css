@@ -463,16 +463,6 @@ a.hoverline:hover {
   height: 240px;
 }
 
-.card.medium {
-  min-height: 450px;
-  display: flex;
-  flex-direction: column;
-}
-
-.card.medium .card-content {
-  flex-grow: 1;
-}
-
 .card-action a.btn-floating {
   margin-bottom: 0;
   margin: 8px;
@@ -481,13 +471,9 @@ a.hoverline:hover {
 #projects .card-action {
   background-color: rgba(0, 0, 0, 0.02);
   border-top: 1px solid rgba(160, 160, 160, 0.2);
-  padding: 30px 24px;
+  padding: 20px 24px;
   text-align: center;
-  margin-top: auto;
-}
-
-#projects .card .card-content {
-  padding-bottom: 30px;
+  margin-top: 15px;
 }
 
 #contact a:not(.btn-floating) {
